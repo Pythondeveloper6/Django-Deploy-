@@ -2,9 +2,13 @@
 an E-commerce Website using Python , Django , Restframework , Docker and Javascript 
 
 ## Deploy On Render 
-- install whitenoise (add middleware)
-- install gunicorn 
-- install dj_database_url (add db settings)
+- install Libraries :
+  - whitenoise (add middleware)
+  - gunicorn : server 
+  - dj_database_url (add db settings)
+  - install psycopg2-binary
+  
+- add static_root to settings
 - update requirments.txt
 - setup .env 
 - push to github
